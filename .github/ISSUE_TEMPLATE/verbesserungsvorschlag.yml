@@ -1,0 +1,30 @@
+name: Verbesserungsvorschlag
+description: Idee oder Korrektur für einen Skill oder ein Plugin
+title: "[Vorschlag] "
+labels: ["vorschlag"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke! Vorschläge werden geprüft und ggf. vom Inhaber selbst umgesetzt.
+        Externe Pull Requests werden nicht übernommen.
+        Bitte keine Zugangsdaten, Tokens oder internen Adressen eintragen.
+        Sicherheitsprobleme bitte über „Security → Report a vulnerability“ melden.
+  - type: input
+    id: bereich
+    attributes:
+      label: Plugin / Skill
+      placeholder: multiplattform-release / release-prozess
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Was fehlt oder stört?
+    validations:
+      required: true
+  - type: textarea
+    id: vorschlag
+    attributes:
+      label: Vorschlag
+      description: Gewünschtes Verhalten, ggf. Formulierung

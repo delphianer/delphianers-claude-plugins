@@ -1,0 +1,15 @@
+{
+  "name": "delphianers-claude-plugins",
+  "description": "Geprüfte Claude-Code-Skills und -Plugins für eigene Projekte",
+  "owner": {
+    "name": "delphianer",
+    "url": "https://github.com/delphianer"
+  },
+  "plugins": [
+    {
+      "name": "multiplattform-release",
+      "source": "./plugins/multiplattform-release",
+      "description": "Branch-Modell, Release-Candidates, lokale Testnachweise je Betriebssystem und sparsame CI für Multiplattform-Apps"
+    }
+  ]
+}
