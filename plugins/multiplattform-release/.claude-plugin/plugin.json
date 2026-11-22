@@ -1,0 +1,12 @@
+{
+  "name": "multiplattform-release",
+  "version": "1.0.0",
+  "description": "Branch-Modell (main, dev, release, hotfix), Release-Candidates, lokale Testnachweise je Betriebssystem und sparsame CI für Multiplattform-Apps",
+  "author": {
+    "name": "delphianer",
+    "url": "https://github.com/delphianer"
+  },
+  "repository": "https://github.com/delphianer/delphianers-claude-plugins",
+  "license": "MIT",
+  "keywords": ["release", "git-flow", "multiplattform", "testnachweis", "ci"]
+}
